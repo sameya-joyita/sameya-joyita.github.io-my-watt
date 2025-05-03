@@ -1,0 +1,191 @@
+.admin-dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .admin-dashboard h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .admin-dashboard h2 {
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .admin-actions {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .add-device-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .add-device-btn:hover {
+    background-color: #219653;
+  }
+  
+  .add-device-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .add-device-form h3 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group small {
+    display: block;
+    color: #666;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  .devices-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .devices-list th, .devices-list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .devices-list th {
+    background-color: #f2f2f2;
+    font-weight: 500;
+  }
+  
+  .devices-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .device-id {
+    font-family: monospace;
+    font-size: 12px;
+  }
+  
+  .status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status.active {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .actions button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .reset-password {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .reset-password:hover {
+    background-color: #e67e22;
+  }
+  
+  .delete-device {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .delete-device:hover {
+    background-color: #c0392b;
+  }
+  
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .temp-password-info {
+    background-color: #cce5ff;
+    color: #004085;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .temp-password-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .temp-password-info p {
+    margin: 8px 0;
+  }
+  
+  .temp-password-info .warning {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .temp-password-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .temp-password-info button:hover {
+    background-color: #0069d9;
+  }

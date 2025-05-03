@@ -1,0 +1,37 @@
+/* Yearly-specific styling */
+.year-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.year-picker {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  width: 100px;
+  transition: var(--transition);
+}
+
+.year-picker:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.2);
+}
+
+@media (max-width: 768px) {
+  .controls-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .year-selector {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .year-picker {
+    width: 100%;
+  }
+}
